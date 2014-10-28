@@ -1,0 +1,32 @@
+{
+  "name": "ldr",
+  "version": "0.1.0",
+  "description": "",
+  "main": "ldr.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bucaran/ldr.git"
+  },
+  "keywords": [
+    "callback",
+    "invoke",
+    "task runner",
+    "serial",
+    "sequence"
+  ],
+  "author": {
+    "name": "Jorge Bucaran"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bucaran/ldr/issues"
+  },
+  "homepage": "https://github.com/bucaran/ldr",
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-jasmine": "^1.0.1"
+  }
+}
