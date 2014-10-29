@@ -58,7 +58,7 @@ Tasks are either `function(done)` or `function(data, done)`. The first only occu
 
 ## Api
 
-### `Loader.add(done)`
+### `Loader.add(task)`
 
 Push a task to the queue list. Returns an instance of itself to allow chaining calls like in the previous examples.
 
