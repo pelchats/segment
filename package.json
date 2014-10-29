@@ -1,6 +1,6 @@
 {
   "name": "ldr",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Sequential task loader for Node.",
   "main": "ldr.js",
   "scripts": {
