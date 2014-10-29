@@ -79,8 +79,9 @@ loader.on('done', function(data) {
 ```
 
 ## License
+![][MIT]
 
-![][MIT] [Jorge Bucaran][Homepage]
+© [Jorge Bucaran][Homepage]
 
 
 [MIT]: http://img.shields.io/badge/license-MIT-blue.svg?style=flat-square
