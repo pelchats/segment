@@ -72,7 +72,7 @@ Loader.prototype.next = function(index, data) {
 };
 /**
  * Run all enqueued tasks in added order.
- * @param {Function} done Call after running all enqueued tasks. Emit done
+ * @param {Function} done Call after running all enqueued tasks. Emit `done`
  * event if undefined.
  */
 Loader.prototype.go = function(done) {
