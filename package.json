@@ -1,7 +1,7 @@
 {
   "name": "ldr",
   "version": "0.1.0",
-  "description": "Sequential task loader for Node",
+  "description": "Sequential task loader for Node.",
   "main": "ldr.js",
   "scripts": {
     "test": "gulp"
@@ -12,11 +12,12 @@
   },
   "keywords": [
     "callback",
-    "invoke",
-    "task runner",
+    "task",
+    "loader",
+    "runner",
     "serial",
-    "sequence",
-    "loader"
+    "sequential",
+    "async"
   ],
   "author": {
     "name": "Jorge Bucaran"
