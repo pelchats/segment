@@ -1,0 +1,77 @@
+.\" generated with Ronn/v0.7.3
+.\" http://github.com/rtomayko/ronn/tree/0.7.3
+.
+.TH "SEGMENT" "1" "March 2016" "" "segment"
+.
+.SH "NAME"
+\fBsegment\fR \- Powerline prompt builder
+.
+.SH "SYNOPSIS"
+\fBsegment\fR \fItext\fR \fIcolor\fR \fIbackground color\fR [\fIprefix\fR]
+.
+.br
+\fBsegment_right\fR \fItext\fR \fIcolor\fR \fIbackground color\fR [\fIprefix\fR]
+.
+.br
+\fBsegment_close\fR
+.
+.br
+.
+.SH "DESCRIPTION"
+\fBSegment\fR is a fish library to build powerline prompts\.
+.
+.SH "USAGE"
+Call segment once to add one segment to the left prompt and segment_right to add one segment to the right prompt\. Call segment_close after you have built the entire prompt\.
+.
+.P
+The left prompt is built from \fIright\fR to \fIleft\fR\. In the following example, BASE is displayed first on the left, and FRONT on the right\.
+.
+.IP "" 4
+.
+.nf
+
+function fish_prompt
+    segment FRONT white red
+    segment BASE black white
+    segment_close
+end
+.
+.fi
+.
+.IP "" 0
+.
+.IP "" 4
+.
+.nf
+
+function fish_right_prompt
+    segment_right FRONT white red
+    segment_right BASE black white
+    segment_close
+end
+.
+.fi
+.
+.IP "" 0
+.
+.P
+The right prompt is built from \fIleft\fR to \fIright\fR\. In the example above, BASE is displayed last on the right, and FRONT on the left\.
+.
+.SH "OPTIONS"
+.
+.TP
+text
+Set the text to display in the segment\.
+.
+.TP
+color
+Set the text color\.
+.
+.TP
+background
+Set the background color\.
+.
+.TP
+prefix
+Optional text to display in front of the segment delimiter\.
+
