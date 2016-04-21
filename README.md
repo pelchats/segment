@@ -4,6 +4,14 @@
 
 Segment is a fish library to build powerline prompts.
 
+## Install
+
+With [fisherman]
+
+```
+fisher segment
+```
+
 ## Usage
 
 Call segment / segment_right to create a powerline segment. Call segment_close after you have added all the prompt segments.
