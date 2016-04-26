@@ -2,7 +2,7 @@
 
 # Segment
 
-Segment is a fish library to build powerline prompts.
+Build powerline prompts.
 
 ## Install
 
