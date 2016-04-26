@@ -45,6 +45,6 @@ end
 * The left prompt is built from *right* to left.
 * The right prompt is built from *left* to right.
 
-[slack-link]: https://fisherman-wharf.herokuapp.com/
-[slack-badge]: https://img.shields.io/badge/slack-join%20the%20chat-00B9FF.svg?style=flat-square
+[slack-link]: https://fisherman-wharf.herokuapp.com
+[slack-badge]: https://fisherman-wharf.herokuapp.com/badge.svg
 [fisherman]: https://github.com/fisherman/fisherman
