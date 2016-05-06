@@ -2,7 +2,7 @@
 
 # Segment
 
-Build powerline prompts.
+Powerline prompt builder for fish-shell.
 
 ## Install
 
