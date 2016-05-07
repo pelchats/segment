@@ -2,7 +2,7 @@
 
 # Segment
 
-Powerline prompt builder for fish-shell.
+Powerline prompt builder for [fish].
 
 ## Install
 
@@ -48,3 +48,4 @@ end
 [slack-link]: https://fisherman-wharf.herokuapp.com
 [slack-badge]: https://fisherman-wharf.herokuapp.com/badge.svg
 [fisherman]: https://github.com/fisherman/fisherman
+[fish]: https://fishshell.com
