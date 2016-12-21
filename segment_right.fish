@@ -7,5 +7,5 @@ function segment_right -a fg bg text -d "Add right prompt segment"
 
     set -g segment_right_color $fg
 
-    echo (set_color $bg)(set_color $segment_right_color -b $bg)"$text"(set_color $right_color)
+    echo (set_color $bg)(set_color $segment_right_color -b $bg)"$text"(set_color $right_color)
 end
